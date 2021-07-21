@@ -9,7 +9,6 @@
   *
   * Return: ...
   */
-  
 int main(int argc, char *argv[])
 {
 	ud_t ud_obj;
