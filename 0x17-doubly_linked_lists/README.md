@@ -606,3 +606,24 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 * Your file should contain the exact result, no new line, no extra space
 
 **Solution:** [102-result](https://github.com/edwardmuss/alx-low_level_programming/tree/main/0x17-doubly_linked_lists/102-result)
+
+## crackme5
+
+Write a keygen for crackme5.
+
+* Usage of the crackme: `./crackme5 username key`
+* The crackme will segfault if you do not enter the correct key for the user
+* Usage for your keygen: `./keygen5 username`
+* Your keygen should print a valid key for the `username`
+
+```
+julien@ubuntu:~/0x17$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 103-keygen.c -o keygen5
+julien@ubuntu:~/0x17$ ./crackme5 julien javascript
+Segmentation fault (core dumped)
+julien@ubuntu:~/0x17$ ./crackme5 julien `./keygen5 julien`
+Congrats!
+julien@ubuntu:~/0x17$ 
+```
+
+
+**Solution:** [103-keygen.c](https://github.com/edwardmuss/alx-low_level_programming/tree/main/0x17-doubly_linked_lists/103-keygen.c)
